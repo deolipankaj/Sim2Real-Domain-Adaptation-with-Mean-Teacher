@@ -1,10 +1,13 @@
+# Paper (TCCML, NeurIPS 2026)
+"**Bridging Annotation Granularity in Synthetic-to-Real Forest Tree Segmentation: The MGTD Dataset**" accepted at TCCML@NeurIPS 2026
+
 # Sim2Real Domain Adaptation with Mean Teacher
 
 This project addresses the domain gap between **simulated** and **real forest environments** for **instance segmentation** using a **Mean Teacher framework with knowledge distillation**.
 
 The method leverages **simulated forest data as the source domain** and **real forest data as the target domain**, enabling the model to **recover the domain gap for instance segmentation tasks** by transferring knowledge learned in simulation to real-world forest imagery.
 
-The framework is inspired by the **Mean Teacher approach by Tarvainen & Valpola**.
+The framework is inspired by the **Mean Teacher approach by Tarvainen & Valpola** (https://github.com/CuriousAI/mean-teacher).
 
 
 ## Motivation
@@ -14,7 +17,6 @@ Training perception models for forest environments is difficult because:
 1. Collecting large labeled real-world datasets is expensive.
 2. Models trained in simulation often fail in real environments due to domain shifts.
 3. This work explores **Sim2Real domain adaptation**, where knowledge learned from simulated data is transferred to real forest imagery.
-
 
 
 ## Method Overview
@@ -104,3 +106,6 @@ Advances in Neural Information Processing Systems (NeurIPS).
 
 - Mean Teacher framework by **Tarvainen & Valpola**
 - **RPTU Forest Dataset**
+
+## Todos
+- Dataset release
